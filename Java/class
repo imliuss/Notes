@@ -1,0 +1,22 @@
+1.java中extends与implements的区别
+  
+  1)implements一般是实现接口。extends 是继承类一个类通过关键字implements声明自己使用一个或者多个接口。
+    在类的声明中，通过关键字extends来创建一个类的子类.
+    eg. class 子类名 extends 父类名 implements 接口1，接口2，...{
+            ...
+        }
+  2)interface 接口
+   接口声明:
+  (public interface 接口名 （extends 接口A,B,..) {
+      
+      (public)函数名（参数列表）{}；//抽象方法，需在实现类中重写
+      ...
+   }
+   接口实现的注意点：
+   a.在interface中只需声明方法头，而将方法体留给实现的class来做。实现一个接口就是要实现该接口的所有的方法(抽象类除外)。
+     这些实现的class的实例完全可以当作interface的实例来对待。
+   b.接口中的方法都是抽象的。
+   c.多个无关的类可以实现同一个接口，一个类可以实现多个无关的接口
+   d.interface的引入是为了部分地提供多继承的功能。
+   e.在interface之间也可以声明为extends（多继承）的关系。一个interface可以extends多个其他interface。
+  
