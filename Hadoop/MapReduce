@@ -1,0 +1,16 @@
+1.MapRuduce 的数据格式   vs       java中数据格式
+  IntWritable         -------     Interger
+  Longwritable                    Long
+  Text                            String
+  
+2.类声明
+ MapRuduce任务过程主要分为两个处理过程，map阶段和reduce阶段。每个阶段都以键值对的形式进行输入和输出。
+ eg.//Mapper<输入键，输入值，输出键，输出值>
+ Public class MaxTemperatureMapper extends MapRuduceBase implements Maper<LongWritable ,
+        Text, Text, IntWritable>{
+        //map(输入键，输入值，（输出键，输出值））
+        public void map(LongWritable key, Text value, Context context)
+            throws IOException, InterruptedException {
+            ...
+            
+ Public class MaxTemp
