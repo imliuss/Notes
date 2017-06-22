@@ -1,12 +1,19 @@
-1.Hbase1.2.6 document 
-2.Hadoop version support matrix
+1.Hbase1.2.6 document    https://hbase.apache.org/1.2/book.html#basic.prerequisites
+2.Java与HBase版本对应关系
+HBase Version	              JDK 6	               JDK 7	                    JDK 8
+1.2                     Not Supported             yes                        yes
+1.1                     Not Supported             yes                     Running with JDK 8 will work but is not well tested.
+1.0                     Not Supported             yes                     Running with JDK 8 will work but is not well tested.
+0.98                        yes                   yes                     Running with JDK 8 works but is not well tested. Building with JDK 8 would require removal of the deprecated remove() method of the PoolMap class and is under consideration. See HBASE-7608 for more information about JDK 8 support.
+0.94                        yes                   yes                        N/A
+3. HBase与Hadoop版本对应关系
 "S" = supported
 "X" = not supported
 "NT" = Not tested
 
                 HBase-0.94.x	    HBase-0.98.x            	HBase-1.0.x 	          HBase-1.1.x	        HBase-1.2.x
                              (Support for Hadoop 1.1+       (Hadoop 1.x  
-                                  is deprecated.)         is NOT supported)
+Hadoop version                                  is deprecated.)         is NOT supported)
 Hadoop-1.0.x       X                      X                       X                      X                    X
 Hadoop-1.1.x       S                      NT                      X                      X                    X
 Hadoop-0.23.x      S                      X                       X                      X                    X
