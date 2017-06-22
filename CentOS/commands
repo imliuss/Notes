@@ -1,6 +1,11 @@
 1.CentOS 7
  查看ip地址：$ip addr
- 修改主机名: $hostnamectl set-hostname 主机名
+ 修改主机名: $hostnamectl set-hostname 主机名       （centos7 修改hostname 与centos6.5有较大差异）
+ 查看主机名: $hostname
+ 查看jdk版本 ： $rpm -qa | grep java
+ 卸载jdk相关 ： $rpm -e --nodeps jdk相关名称
+ 解压安装:rpm -ivh rpm文件名称
+ 解压安装tar包 ：tar -xzvf xxx.tar.gz 
  
 
   
