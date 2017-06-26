@@ -1,8 +1,9 @@
 1.Hadoop1 集群搭建
 http://www.cnblogs.com/xia520pi/
-2.Hadoop2.7.3 + Hbase 1.2.6 +Zookeeper 3.4.10 +sqoop 1.4.6
+2.Hadoop2.7.3 + Hbase 1.2.6 +Zookeeper 3.4.16 +sqoop 1.4.6
 1)Hadoop搭建
   https://my.oschina.net/xhhuang/blog/807914
+2)zookeeper配置
 
 3.IntelliJ IDEA 2017.1.4 summary
  1)软件下载和破解:http://blog.csdn.net/c__chao/article/details/70941504
@@ -13,4 +14,7 @@ http://www.cnblogs.com/xia520pi/
   http://blog.leanote.com/post/crazyflypig/Intellij-IDEA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5hadoop-2.6.0
  4)maven program 创建
   http://www.cnblogs.com/wql025/p/5215570.html
+4.IDEA 运行Hadoop程序
+  1)
+
   
