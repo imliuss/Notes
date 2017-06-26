@@ -22,3 +22,4 @@
   6）查看文件内容
     #查看hosts文件的内容 
     hadoop fs -cat /d2/hosts
+    
