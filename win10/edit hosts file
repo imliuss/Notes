@@ -1,0 +1,7 @@
+Win10系统如何修改hosts文件
+http://chongzhuang.windowszj.com/faq/164.html
+1.打开hosts所在文件夹
+  "win"+"R"，打开“运行”对话框，文本框中输入"C:\WINDOWS\system32\drivers\etc",按"Enter"键
+2.
+  找到hosts文件位置后，在hosts文件上鼠标点击右键，接着在弹出的选项中，打开“属性”。
+  
