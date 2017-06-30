@@ -1,1 +1,7 @@
-1.
+1.使用TortoiseGit将代码上传到bitbucket
+  1)设置TortoiseGit
+  点击右键，选择"TortoiseGit"->设置
+  https://www.bbsmax.com/A/D8542mg6zE/
+  1)在bitbucket上创建一个仓库repository
+  2)本地选待上传的项目文件夹，右键，选择"TorToiseGit"->"在这里创建版本库",在此处创建仓库!
+  
