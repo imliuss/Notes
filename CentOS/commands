@@ -7,6 +7,15 @@
  解压安装:rpm -ivh rpm文件名称
  解压安装tar包 ：tar -xzvf xxx.tar.gz 
  重命名: mv 源文件名 目标文件名
+ 递归创建文件夹: mkdir -p  文件路径
+ 关机:halt 关机
+      poweroff 立即关机
+      shutdown -h nown 立即关机，root用户使用
+      shutdown -h 10十分钟后关机
+ 重启:reboot 立即重启
+     shutdown -r now 立即重启
+     shutdown -r 10 10分钟后重启
+     shuitdown -r 10:21  10:21时重启，root使用
  
 
   
