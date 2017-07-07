@@ -4,13 +4,13 @@
  查看主机名: $hostname
  查看jdk版本 ： $rpm -qa | grep java
  卸载jdk相关 ： $rpm -e --nodeps jdk相关名称
+j解压缩: http://www.cnblogs.com/eoiioe/archive/2008/09/20/1294681.html
  #压缩
 tar -czvf ***.tar.gz
 tar -cjvf ***.tar.bz2
 #解压缩
 tar -xzvf ***.tar.gz
 tar -xjvf ***.tar.bz2
-gunzip *.tgz( 可将.tgz 转为.tar 文件）
 参数：
 -c  ：建立一个压缩档案的参数指令(create 的意思)；
 -x  ：解开一个压缩档案的参数指令！
@@ -29,6 +29,11 @@ gunzip *.tgz( 可将.tgz 转为.tar 文件）
 --exclude FILE：在压缩的过程中，不要将 FILE 打包！
  解压安装:rpm -ivh rpm文件名称
  解压安装tar包 ：tar -xzvf xxx.tar.gz 
+ 解压.tgz文件
+ 1)gunzip *.tgz( 将.tgz 转为.tar 文件）
+ 2)用解压.tar文件的命令 tar c *.tar （创建解压目录的意思）
+                      tar tvf *.tar （查看目录的意思，可省略）
+                      tar xf *.tar    （解压）
  重命名: mv 源文件名 目标文件名
  递归创建文件夹: mkdir -p  文件路径
  关机:halt 关机
