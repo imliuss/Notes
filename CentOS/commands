@@ -10,6 +10,7 @@ tar -cjvf ***.tar.bz2
 #解压缩
 tar -xzvf ***.tar.gz
 tar -xjvf ***.tar.bz2
+gunzip *.tgz( 可将.tgz 转为.tar 文件）
 参数：
 -c  ：建立一个压缩档案的参数指令(create 的意思)；
 -x  ：解开一个压缩档案的参数指令！
